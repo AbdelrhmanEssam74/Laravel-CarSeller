@@ -11,6 +11,7 @@ class HomeController extends Controller
         return view('hello.welcome')
             ->with('name', 'John Doe')
             ->with('surname', 'Johnson')
-            ->with('jop', '<b>Developer<b/>');
+            ->with('job', '<b>Developer</b>')
+            ->with('hobbies', ["Reading", "Swimming", "Coding"]);
     }
 }
