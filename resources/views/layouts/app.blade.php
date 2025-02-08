@@ -11,9 +11,9 @@
 </head>
 
 <body>
-    <h1>header</h1>
+    @yield('header')
     @yield('content')
-    <h1>footer</h1>
+    @yield('footer')
 </body>
 
 </html>
