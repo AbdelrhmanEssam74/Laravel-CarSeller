@@ -8,10 +8,14 @@ class HomeController extends Controller
 {
     public function welcome()
     {
-        return view('hello.welcome');
+        return view('home.index');
     }
-    public function about()
+    public function login()
     {
-        return view('hello.about');
+        return view('auth.login');
+    }
+    public function signup()
+    {
+        return view('auth.signup');
     }
 }

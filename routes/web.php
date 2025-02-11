@@ -4,9 +4,11 @@ use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/hello', [HomeController::class, 'welcome']);
+Route::get('/', [HomeController::class, 'welcome']);
 Route::get('/about', [HomeController::class, 'about']);
-Route::redirect('/', '/hello');
+Route::get('/login', [HomeController::class, 'login']);
+Route::get('/signup', [HomeController::class, 'signup']);
+Route::redirect('/home', '/');
 
 Route::fallback(function () {
     return view('404');
