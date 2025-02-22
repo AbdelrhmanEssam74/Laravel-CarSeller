@@ -230,4 +230,5 @@ document.addEventListener("DOMContentLoaded", function () {
     origin: "bottom",
     distance: "50%",
   });
+
 });
