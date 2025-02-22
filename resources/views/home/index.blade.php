@@ -488,5 +488,6 @@
         </section>
         <!--/ New Cars -->
     </main>
+
 @endsection
 
