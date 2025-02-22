@@ -1,5 +1,5 @@
 @extends('layouts.clean')
-@section('title', 'Sign Up')
+@section('title', 'Signup')
 @section('childContent')
     <!-- component -->
     <div class="flex h-screen">
