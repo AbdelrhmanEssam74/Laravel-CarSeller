@@ -488,6 +488,10 @@
         </section>
         <!--/ New Cars -->
     </main>
+    <x-card>
+        <x-slot:title>Cart Title</x-slot:title>
 
+        <x-slot:button>Add To Cart</x-slot:button>
+    </x-card>
 @endsection
 
