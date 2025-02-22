@@ -1,7 +1,6 @@
 @extends('layouts.app')
 @section('title', 'Home Page')
 @section('content')
-    @include('layouts.partials.header')
     <!-- Home Slider -->
     <section class="hero-slider">
         <!-- Carousel wrapper -->
@@ -489,6 +488,5 @@
         </section>
         <!--/ New Cars -->
     </main>
-    @include('layouts.partials.footer')
 @endsection
 

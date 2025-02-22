@@ -1,6 +1,6 @@
-@extends('layouts.app')
+@extends('layouts.clean')
 @section('title', 'Login')
-@section('content')
+@section('childContent')
     <!-- component -->
     <div class="flex h-screen">
         <div class="w-full bg-gray-100 lg:w-1/2 flex items-center justify-center">
